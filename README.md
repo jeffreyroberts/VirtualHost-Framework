@@ -1,14 +1,7 @@
 VirtualHost-Framework
 =====================
 
-Apache2 Virtual Host Framework
-
-Pre-reqs:
-
-1) Github.com Account and Repo
-2) Linux and Apache2
-3) Git Client
-4) 10 Minutes
+	Apache2 Virtual Host Framework
 
 
 First we will start by forking my skeleton repo at ...
