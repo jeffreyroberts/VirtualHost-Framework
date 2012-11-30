@@ -1,12 +1,12 @@
 <VirtualHost ${WEBIPSKELETON}:80>
-    ServerName <DOMAIN>
+    ServerName DOMAIN
     
-	ErrorLog /web/_logs/<DOMAIN>_error_log
-    CustomLog /web/_logs/<DOMAIN>_access_log combined
+    ErrorLog /web/_logs/DOMAIN_error_log
+    CustomLog /web/_logs/DOMAIN_access_log combined
 
-    DocumentRoot /web/<DOMAIN>/public
+    DocumentRoot /web/DOMAIN/public
     
-	<Directory "/web/<DOMAIN>/public">
+    <Directory "/web/DOMAIN/public">
         allow from all
         Options +Indexes
         AllowOverride ALL
