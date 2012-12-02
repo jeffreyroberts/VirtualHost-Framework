@@ -1,0 +1,7 @@
+!_certs/*
+!_conf/*
+!_conf.d/*
+!_scripts/*
+_conf/webhead.conf
+_conf/devbox.conf
+_conf.d/dev.v2tactical.com.conf
