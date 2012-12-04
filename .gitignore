@@ -8,3 +8,4 @@ _conf.d/dev.v2tactical.com.conf
 _conf.d/*
 _domains/*
 !_conf.d/conf.skel
+!_domains/skel/public/index.html
