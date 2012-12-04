@@ -5,3 +5,6 @@
 _conf/webhead.conf
 _conf/devbox.conf
 _conf.d/dev.v2tactical.com.conf
+_conf.d/*
+_domains/*
+!_conf.d/conf.skel
