@@ -75,3 +75,24 @@ Commit, Push Changes, Restart Apache
 	git commit -m 'Added <domain> on IP <ip>'
 	git push -u origin master
 	sudo /etc/init.d/httpd graceful
+
+Road Map - Version 0.0.2 - Demo
+
+/jlr
+	/bin
+	/libexec
+	/conf.d
+	/conf
+	/s3
+		/webheads
+			/web-04
+				/home
+				/etc
+				/logs
+		/magento
+			/skin	
+			/media
+	/sites
+		/magento
+			/0.0.1
+			/public -> 0.0.1
